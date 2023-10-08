@@ -3,10 +3,7 @@
 <img width="%100" src="./assets/header.jpg">
 
 ## Introduction
-
-The world of movies is vast and varied, with each film being a unique blend of storytelling, artistry, and business. As movie enthusiasts, we often wonder: What makes a movie successful? Is it the star-studded cast, the backing of a major production house, or the genre that resonates with the audience?
-
-In this project, we dive deep into a dataset encompassing various attributes related to movies. Through meticulous data wrangling and exploratory analysis, we aim to uncover patterns and factors that contribute to a movie's success. Whether you're a budding filmmaker, a business analyst, or just a curious movie buff, join us on this analytical journey as we unravel the secrets behind blockbuster hits.
+The goal of this project is to analyze the movie dataset. In this analysis, we meticulously examine the myriad factors influencing a movie's commercial success. Leveraging an extensive dataset on cinematic productions, our objective is to elucidate the underlying patterns and determinants of blockbuster achievements.
 
 
 ## Dataset
@@ -29,8 +26,8 @@ The tools used for this analysis are:
 
 | Tool                       | Logo                                                                 | Use                      |
 |:--------------------------:|:--------------------------------------------------------------------:|:------------------------:|
-| [Jupyter Notebook](https://jupyter.org/) | <img width="140" src="./assets/Jupyter_Notebook_Logo.png">  | Interactive Programming |
-| [Python](https://www.python.org/)        | <img width="140" src="./assets/Python_Logo.svg">    | Data Analysis & Scripting |
+| [Jupyter Notebook](https://jupyter.org/) | <img width="50" src="./assets/Jupyter_Notebook_logo.png">  | Interactive Programming |
+| [Python](https://www.python.org/)        | <img width="50" src="./assets/Python_logo.svg">    | Data Analysis & Scripting |
 
 ## Data Processing
 
@@ -44,12 +41,16 @@ The tools used for this analysis are:
 
 ### Exploratory Data Analysis
 
+
 #### What are the most popular movies?
 
+<img width="%100" src="./assets/Popularity_of_movies.png">
+
+<br>
 
 #### What are the most profitable movies?
 
-Most Profitable Movies
+Most profitable movies
 | original_title                 | release_year | vote_average | profit        |
 |:------------------------------:|:------------:|:------------:|:-------------:|
 | Avatar                         | 2009         | 7.1          | 2,544,506,000 |
@@ -60,22 +61,28 @@ Most Profitable Movies
 
 After examining the most profitable movies, it appears they have **higher budget on average**
 
+<br>
+
 #### What are the most profitable genres?
 
+<img width="%100" src="./assets/Genres_in_Most_Profitable_Movies.png">
 
 It appears that the most popular genres are **Comedy**, **Action**, **Drama** respectively.
 
+<br>
+
 ## Results
 
-From the analysis done above 
-
-**Successful movies that generate high profits have the following in common:**
+**From the analysis done above we conclude that successful movies that generate high profits have the following in common:**
 - An Average budget of 50 Million Dollars.
 - One of the well known actors including (Tom Cruise, Brad Pitt, Sylvester Stallone, Tom Hanks, Adam Sandler).
 - One of these production companies (Universal Pictures, Warner Bros., Paramount Pictures, Twentieth Century Fox Film Corporation, Columbia Pictures).
 - Includes one or more of these genres (Comedy, Action, Drama, Adventure, Thriller).
 
+<br>
+
 **Final Observation:** 
+
 Although we got some great insights but there were some limitations
 
 - The dataset is quite small of only 10K rows.
